@@ -54,7 +54,6 @@ function App() {
                 </div>
                 <img src={puppy.imageUrl}/>
                 <button className="detail-button" data-id={puppy.id} onClick={SelectPlayer}>See Details</button>
-                <button className="delete-button" onClick={null}>Remove Player</button>
               </div>
           ))}
         </div>
