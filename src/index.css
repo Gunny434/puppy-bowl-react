@@ -69,3 +69,28 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 2;
+  margin: 1rem;
+}
+form input {
+  margin: 1em 0;
+  font-size: 1rem;
+}
+form button {
+  padding: .75em 1.5em;
+  background-color: #59A9C2;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  transition: all 1s ease;
+  outline: none;
+  border-radius: 5%;
+}
+form button:hover {
+  background-color: #65878F;
+}
